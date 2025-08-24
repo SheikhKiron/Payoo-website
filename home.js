@@ -29,7 +29,7 @@ document.getElementById('add-money').addEventListener('click', function (e) {
   e.preventDefault();
   let mainBalance =setValue();
   let ammountAdd = numberConvert('amountAdd');
-  let acNum = numberConvert('acnum');
+  let acNum = document.getElementById('acnum').value;
   if (acNum.length < 11) {
     alert('Account Number Incorrect')
     return;
@@ -58,7 +58,6 @@ document.getElementById('out-money').addEventListener('click', function (e) {
     alert('number Incorrect');
     return
   }
-  parseInt(agentN)
   
   let cashout = mainBalance - amountOut;
   mainBalan(cashout)
