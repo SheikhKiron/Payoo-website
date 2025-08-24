@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="overflow-x-hidden">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,9 +13,9 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   <title>Document</title>
 </head>
-<body class="bg-[#f4f5f7] min-h-[100vh]">
-  <div class=" bg-white w-[530px] mx-auto p-5 rounded-b-xl">
-  <div class="flex justify-between items-center w-[500px] mx-auto border-b-1 border-gray-400 pb-5">
+<body class="bg-[#f4f5f7] min-h-[100vh] overflow-x-auto">
+  <div class=" bg-white md:w-[530px] mx-auto p-5 rounded-b-xl">
+  <div class="flex justify-between items-center md:w-[500px] mx-auto border-b-1 border-gray-400 pb-5">
     <div class="flex items-center">
       <img src="./assets/Group.png" alt="" class="w-[60px]">
       <div class="ml-3">
@@ -63,7 +63,7 @@
   </div>
 <!--================ Add money ===========================-->
 
-  <div class="item w-[530px] mx-auto" id="moneyAdd">
+  <div class="item md:w-[530px] mx-auto" id="moneyAdd">
     <h1 class="text-2xl font-bold my-3">Add Money</h1>
     <div class=" bg-white rounded-2xl">
       <form class=" p-6">
@@ -87,7 +87,7 @@
     </div>
   </div>
 <!--==================== Cashout =========================-->
-  <div class="item w-[530px] mx-auto hidden" id="moneyOut">
+  <div class="item md:w-[530px] mx-auto hidden" id="moneyOut">
     <h1 class="text-2xl font-bold my-3">Cash Out</h1>
     <div class=" bg-white rounded-2xl">
       <form class=" p-6">
@@ -106,7 +106,7 @@
   </div>
 
 <!--================== transfer money ===========================-->
-<div class="item w-[530px] mx-auto hidden" id="transfer">
+<div class="item md:w-[530px] mx-auto hidden" id="transfer">
   <h1 class="text-2xl font-bold my-3">Transfer Money</h1>
   <div class=" bg-white rounded-2xl">
     <form class=" p-6">
@@ -125,7 +125,7 @@
 </div>
 
 <!--=============== get bouns =========================-->
-<div class="hidden item w-[530px] mx-auto " id="bouns">
+<div class="hidden item md:w-[530px] mx-auto " id="bouns">
   <h1 class="text-2xl font-bold my-3">Get Bonus</h1>
   <div class=" bg-white rounded-2xl">
     <form class=" p-6">
@@ -138,7 +138,7 @@
 </div>
 
 <!--=========== pay Bill ===============-->
-<div class="hidden item w-[530px] mx-auto" id="payMoney">
+<div class="hidden item md:w-[530px] mx-auto" id="payMoney">
   <h1 class="text-2xl font-bold my-3">Pay Bill</h1>
   <div class=" bg-white rounded-2xl">
     <form class=" p-6">
@@ -163,7 +163,7 @@
 </div>
 
 <!--=========== Transactions ================-->
-<div class="hidden item w-[530px] mx-auto" id="transactions">
+<div class="hidden item md:w-[530px] mx-auto" id="transactions">
   <div class="flex justify-between items-center">
   <h1 class="text-2xl font-bold my-3">Transaction History</h1>
   <p class="text-[#08080880]">View All</p>
